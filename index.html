@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iqra Waris — Front-End Developer</title>
+<meta name="description" content="Iqra Waris is a front-end developer building modern, responsive landing pages for businesses, brands and e-commerce stores using HTML, CSS and JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#home">Skip to content</a>
+
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="#home" class="nav__logo">Iqra Waris</a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#home" class="nav__link" data-nav>Home</a>
+      <a href="#about" class="nav__link" data-nav>About</a>
+      <a href="#skills" class="nav__link" data-nav>Skills</a>
+      <a href="#services" class="nav__link" data-nav>Services</a>
+      <a href="#projects" class="nav__link" data-nav>Projects</a>
+      <a href="#contact" class="nav__link" data-nav>Contact</a>
+    </nav>
+
+    <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__inner">
+      <div class="hero__copy">
+        <p class="hero__kicker">Hi, I'm</p>
+        <h1 class="hero__name">Iqra Waris</h1>
+        <p class="hero__role">Front&#8209;End Developer</p>
+        <p class="hero__intro">
+          I build modern, responsive and user-friendly landing pages with HTML, CSS and JavaScript —
+          crafted for businesses, brands, shops and e-commerce stores that need a clean, fast
+          front end and a clear path from visitor to customer, including WhatsApp ordering where it fits.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View My Projects</a>
+          <a href="#contact" class="btn btn--ghost">Let's Work Together</a>
+        </div>
+      </div>
+
+      <div class="hero__visual" aria-hidden="true">
+        <div class="browser-card">
+          <div class="browser-card__bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="browser-card__body">
+            <div class="bc-nav">
+              <div class="bc-dot"></div>
+              <div class="bc-line bc-line--60"></div>
+              <div class="bc-pill"></div>
+            </div>
+            <div class="bc-hero">
+              <div class="bc-line bc-line--80 bc-line--lg"></div>
+              <div class="bc-line bc-line--45"></div>
+              <div class="bc-cta"></div>
+            </div>
+            <div class="bc-grid">
+              <div class="bc-tile"></div>
+              <div class="bc-tile"></div>
+              <div class="bc-tile"></div>
+            </div>
+          </div>
+        </div>
+        <div class="ring ring--one"></div>
+        <div class="ring ring--two"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="section__inner about__grid">
+      <div class="about__mark" aria-hidden="true">
+        <span class="about__mark-line"></span>
+      </div>
+      <div class="about__content">
+        <h2 class="section__heading">About</h2>
+        <p class="about__lead">
+          I'm a front-end developer who designs and builds landing pages that are modern,
+          responsive and easy to use — the kind a visitor can navigate on any screen without
+          a second thought.
+        </p>
+        <p class="about__body">
+          My focus is the front end: clean HTML structure, considered CSS, and JavaScript that
+          adds the right amount of interactivity without getting in the way. I work closely with
+          business and e-commerce briefs, translating a brand or a product into a page that loads
+          fast, reads clearly and guides visitors toward an action — whether that's a purchase,
+          an enquiry, or an order placed straight through WhatsApp.
+        </p>
+        <p class="about__body">
+          I pay close attention to visual detail: spacing, hierarchy, type and motion all have to
+          work together, not just sit next to each other. Every project I take on gets the same
+          care, regardless of size.
+        </p>
+        <ul class="about__list">
+          <li>Modern, responsive website design</li>
+          <li>Landing pages for businesses and e-commerce</li>
+          <li>Clean, semantic front-end implementation</li>
+          <li>HTML, CSS and JavaScript, built by hand</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section skills" id="skills">
+    <div class="section__inner">
+      <h2 class="section__heading">Skills</h2>
+      <p class="section__lead">The tools and techniques I use to turn a design brief into a working page.</p>
+
+      <div class="skills__group">
+        <h3 class="skills__group-title">Core</h3>
+        <div class="skills__grid">
+          <div class="skill-tile">
+            <span class="skill-tile__mark">Ht</span>
+            <span class="skill-tile__name">HTML5</span>
+          </div>
+          <div class="skill-tile">
+            <span class="skill-tile__mark">Cs</span>
+            <span class="skill-tile__name">CSS3</span>
+          </div>
+          <div class="skill-tile">
+            <span class="skill-tile__mark">Js</span>
+            <span class="skill-tile__name">JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__group">
+        <h3 class="skills__group-title">Capabilities</h3>
+        <div class="skills__grid skills__grid--wide">
+          <div class="skill-tile skill-tile--wide">Responsive Web Design</div>
+          <div class="skill-tile skill-tile--wide">Landing Page Development</div>
+          <div class="skill-tile skill-tile--wide">UI/UX-Focused Front-End Implementation</div>
+          <div class="skill-tile skill-tile--wide">CSS Animations &amp; Transitions</div>
+          <div class="skill-tile skill-tile--wide">Interactive Web Interfaces</div>
+          <div class="skill-tile skill-tile--wide">Mobile-Friendly Design</div>
+          <div class="skill-tile skill-tile--wide">WhatsApp Ordering Integration</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section services" id="services">
+    <div class="section__inner">
+      <h2 class="section__heading">Services</h2>
+      <p class="section__lead">Front-end work built around what a business actually needs from its page.</p>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3 class="service-card__title">Landing Page Development</h3>
+          <p class="service-card__text">Modern, responsive landing pages designed for businesses, brands and online stores.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 9h16" stroke="currentColor" stroke-width="1.6"/></svg>
+          </div>
+          <h3 class="service-card__title">Business &amp; Brand Websites</h3>
+          <p class="service-card__text">Clean and engaging front-end experiences tailored to a business or brand.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16l-1.5 9.5a2 2 0 0 1-2 1.7H7.5a2 2 0 0 1-2-1.7L4 6Z" stroke="currentColor" stroke-width="1.6"/><path d="M8 6V5a4 4 0 0 1 8 0v1" stroke="currentColor" stroke-width="1.6"/></svg>
+          </div>
+          <h3 class="service-card__title">E-Commerce &amp; Product Landing Pages</h3>
+          <p class="service-card__text">Modern product-focused interfaces designed to present products clearly and attractively.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 0 0-7.6 13.8L3 21l4.3-1.4A9 9 0 1 0 12 3Z" stroke="currentColor" stroke-width="1.6"/></svg>
+          </div>
+          <h3 class="service-card__title">WhatsApp Ordering Integration</h3>
+          <p class="service-card__text">An "Order Now" call-to-action connected directly to a business's WhatsApp, so customers can order in one step.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section projects" id="projects">
+    <div class="section__inner">
+      <h2 class="section__heading">Projects</h2>
+      <p class="section__lead">Live front-end builds, each shipped and hosted on its own.</p>
+
+      <div class="project-list">
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="image1.jpeg" alt="Preview of the Velora Watch landing page" loading="lazy">
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Velora Watch Landing Page</h3>
+            <p class="project-card__text">A modern and elegant watch landing page designed with a premium, product-focused visual style.</p>
+            <ul class="project-card__stack">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <a href="https://iqrawaris467-lang.github.io/watch.landingpage/" class="btn btn--outline" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-card--reverse">
+          <div class="project-card__media">
+            <img src="image2.jpeg" alt="Preview of the Food landing page" loading="lazy">
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Food Landing Page</h3>
+            <p class="project-card__text">A modern food and restaurant landing page focused on attractive presentation, clear calls-to-action and a user-friendly experience.</p>
+            <ul class="project-card__stack">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <a href="https://iqrawaris467-lang.github.io/food.landingpage/" class="btn btn--outline" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__media">
+            <img src="image3.jpeg" alt="Preview of the Abaya landing page" loading="lazy">
+          </div>
+          <div class="project-card__content">
+            <h3 class="project-card__title">Abaya Landing Page</h3>
+            <p class="project-card__text">An elegant abaya-focused landing page with a refined visual presentation and responsive front-end design.</p>
+            <ul class="project-card__stack">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+            </ul>
+            <a href="https://iqrawaris467-lang.github.io/Aba.landingpage/" class="btn btn--outline" target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section contact" id="contact">
+    <div class="section__inner contact__inner">
+      <h2 class="section__heading">Let's Work Together</h2>
+      <p class="contact__text">
+        If you need a modern, responsive landing page for your business, brand or store,
+        I'd like to hear about it. Have a look at my Fiverr profile to get started.
+      </p>
+      <a href="https://www.fiverr.com/iqwebstudio/buying?source=avatar_menu_profile" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+        View My Fiverr Profile
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <span>Iqra Waris — Front-End Developer</span>
+    <span>&copy; <span id="year"></span></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
